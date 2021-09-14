@@ -9,6 +9,7 @@ public abstract class Vehiculo {
    protected String prioridad;
    protected Color color;
    protected int tiempo;
+   protected int numerocliente;
 
   /******CONSTRUCTORES*******/
   
@@ -63,6 +64,13 @@ public abstract class Vehiculo {
         this.tiempo = tiempo;
   }
   
+  public int getNumerocliente() {
+       return numerocliente;
+  }
+
+  public void setNumerocliente(int Numerocliente) {
+      this.numerocliente = Numerocliente;
+  }
   
   /******METODO ABSTRACTO PARA DIBUJAR FIGURA
      * @param g*/

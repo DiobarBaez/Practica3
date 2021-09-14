@@ -174,7 +174,8 @@ public class Ventana extends javax.swing.JFrame {
     private void ingresoVehiculoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ingresoVehiculoActionPerformed
       Datos datos = new Datos(this, true);
       datos.setVisible(true);
-      control.crearVehiculo(datos.getTamaño(), datos.getServicio(), datos.getCliente(), datos.getColor(), this.getGraphics());
+      control.agregarCarril(control.crearVehiculo(datos.getTamaño(), datos.getServicio(), datos.getCliente(), datos.getColor()));
+      control.dibujarVehiculo(control.getColaCarril());
     }//GEN-LAST:event_ingresoVehiculoActionPerformed
 
     private void registroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_registroActionPerformed

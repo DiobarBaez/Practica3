@@ -59,7 +59,7 @@ public class Datos extends javax.swing.JDialog {
         cliente.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         cliente.setText("Cliente VIP");
 
-        opcionesServicio.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "lavado", "aspirado", "secado" }));
+        opcionesServicio.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "aspirado", "secado express" }));
 
         opcionesCliente.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "si", "no" }));
 
@@ -94,7 +94,7 @@ public class Datos extends javax.swing.JDialog {
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(botonAceptar))
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap(15, Short.MAX_VALUE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(cliente)
                             .addComponent(servicio, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -103,10 +103,10 @@ public class Datos extends javax.swing.JDialog {
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(opcionesServicio, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(opcionesCliente, 0, 82, Short.MAX_VALUE)
+                            .addComponent(opcionesCliente, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(cajaColor)
                             .addComponent(opcionesTamaño, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(15, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(49, 49, 49)
                 .addComponent(titulo)

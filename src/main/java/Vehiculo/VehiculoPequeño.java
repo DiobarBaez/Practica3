@@ -11,10 +11,10 @@ public class VehiculoPequeño extends Vehiculo{
     
     /******CONSTRUCTOR DE CLASE******/
     
-    public VehiculoPequeño(String tamaño, String servicio, String prioridad, Color color ){
+    public VehiculoPequeño(String tamaño, String servicio, String prioridad, Color color, int sizeCola){
       super(tamaño,servicio,prioridad,color);
-      posx=200;
-      posy=200;
+      posx=0+(20*sizeCola);
+      posy=0;
       size=50;
     }
     

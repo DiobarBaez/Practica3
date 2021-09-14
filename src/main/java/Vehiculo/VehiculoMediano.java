@@ -9,9 +9,9 @@ public class VehiculoMediano extends Vehiculo {
     private int posy;
     private int size;
     
-    public VehiculoMediano(String tamaño, String servicio, String prioridad, Color color ){
+    public VehiculoMediano(String tamaño, String servicio, String prioridad, Color color, int sizeCola){
       super(tamaño,servicio,prioridad,color);
-      posx=0;
+      posx=0+(20*sizeCola);
       posy=0;
       size=50;
     }
